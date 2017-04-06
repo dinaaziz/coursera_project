@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="style.css">
+  <a href="code.js"></a>
+  <title>Coursea Assignment</title>
+</head>
+<body>
+  <h1>Please Enter Your Details For Our Dating Website! </h1>
+  <form >
+    <fieldset>
+      <legend> Your Face</legend>
+      <label for="avatar">Your image:</label>
+      <input type="file" required>
+      <p id="preview">Image preview:</p>
+    </fieldset>
+
+    <fieldset>
+      <legend>
+        <label for="avatar">Your General Details</label>
+      </legend>
+      Name <input type="text" value="Your Full Name" required> <br>
+      Gender <input type="radio" required>Male
+      <input type="radio" required>Female <br>
+      Age <input type="number" required> <br>
+      Date Of Birth <input type="date"> <br>
+      Favorait Color <input type="color"><br>
+      Which Countries <select name="countries" >
+        <option value="hk"> Hong kong</option>
+        <option value="IQ"> Iraq</option>
+        <option value="En"> England</option>
+        <option value="Br"> Bahren</option>
+        <option value="Gr"> German</option>
+        <option value="no"> no selection</option>
+      </select>
+     </fieldset>
+
+     <fieldset>
+       <label for="avatar">Your Indicators</label>
+       Height <target>
+         <r>Short</r>
+       </target><input type="range" min="0" max="100"><target>
+         <r>Tall</r></target> <br>
+       Salary <target>
+         <r>Poor</r>
+       </target><input type="range" min="0" max="100"><target>
+         <r>Rich</r></target> <br>
+     </fieldset>
+
+     <fieldset>
+       <label for="avatar">Your Contact Information</label>
+    Email:<input type="email" required> <br>
+    Mobile: <input type="tel"> <br>
+    Address <textarea name="name" rows="2" cols="20"></textarea> <br>
+    Methode of contact you: <input type="checkbox">Email <input type="checkbox"> Whatsapp<input type="checkbox">In-app chat
+     </fieldset>
+     <input type="submit" value="submit">
+  </form>
+  <script src="https://www.cse.ust.hk/~rossiter/dating_web_site.js"></script>
+</body>
+</html>
